@@ -1,23 +1,22 @@
 
 import './App.css';
 import Navbar from './Components/Navbar';
-import Home from './Components/Home';
-import About from './Components/About';
+import Home from './Components/Home'; 
+// import About from './Components/About';
 import Project from './Components/Project';
 import Contact from './Components/Contact';
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
-  Link,
   Routes
 } from "react-router-dom";
 import Skills from './Components/Skills';
 function App() {
   
   return (
-  //  <Navbar/>
+    <>
    <Router>
+   <Navbar/>
     <Routes>
 
     <Route path="/" element={<Home />} />
@@ -26,6 +25,7 @@ function App() {
     <Route path="/Contact" element={<Contact />} />
     </Routes>
    </Router>
+  </>
   )
 }
 

@@ -5,8 +5,9 @@ import me from './me.jpg'
 import Fotter from './Fotter'
 export default function Home() {
     return (
+        
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className="home">
                 <div className="left">
                     <img src={me} alt="" />
