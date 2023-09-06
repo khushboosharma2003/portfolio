@@ -105,7 +105,7 @@ a{
 }
 .left img{
   width: 35vw;
-  height:70vh;
+  height:80vh;
   border-radius: 28rem;
 }
 
@@ -114,7 +114,7 @@ a{
   width: 35vw;
   border-radius: 28rem;
   margin: 2rem;
-  height: 70vh;
+  height: 80vh;
 /* background:url(purple); */
   border: 2px solid white;
   box-shadow: 0 0 5px cyan,
@@ -486,7 +486,7 @@ textarea{
   padding-top: 6rem;
   width:40vw;
   padding-bottom: 2rem;
-  height: 30vh;
+  height: 80vh;
 }
 .box .left .skill-box .bx{
   border: 2px solid rgb(0, 0, 0);
@@ -516,16 +516,16 @@ textarea{
 @media screen and (max-width: 1600px)
 {
   .left img {
-    width: 45vw;
-    height: 45vh;
+    width: 40vw;
+    height: 60vh;
     border-radius: 50%;
 }
 .home .left {
   margin: 2rem auto;
-  width: 45vw;
+  width: 40vw;
   border-radius: 50%;
   /* margin: 2rem; */
-  height: 45vh;
+  height: 60vh;
 }
 .cont .about{
   width: 100vw;
